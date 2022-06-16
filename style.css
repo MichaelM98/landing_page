@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 a {
@@ -21,7 +21,7 @@ a {
     font-size: 18px;
 }
 
-.links  {
+.links {
     display: flex;
     gap: 1.1em;
     margin-left: 120px;
@@ -73,17 +73,19 @@ h2 {
     color: #1f2937;
 }
 
-.boxes  {
+.boxes {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 52px;
     margin-bottom: 50px;
     margin-top: 65px;
 }
 
-.box1, .box2, .box3, .box4 {
+.box1,
+.box2,
+.box3,
+.box4 {
     background: white;
-    border: 5px #3882f6 solid;
     height: 160px;
     width: 160px;
     border-radius: 15px;
@@ -106,7 +108,11 @@ h2 {
     padding-left: 35px;
 }
 
-
+section img {
+    height: 160px;
+    width: 160px;
+    border-radius: 15px;
+}
 
 
 
