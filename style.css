@@ -4,7 +4,7 @@ body {
     padding: auto;
 }
 
-    /* HEADER SECTION */
+/* HEADER SECTION */
 .header {
     background-color: #1f2937;
     font-size: 24px;
@@ -29,10 +29,10 @@ a {
     gap: 1.1em;
     margin-left: 120px;
 }
-    /* END HEADER SECTION */
+ /* END HEADER SECTION */
 
 
-    /* MAIN SECTION */
+ /* MAIN SECTION */
 .mainFlex {
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@ h1 {
     width: 28%;
 }
 
-p {
+.mainFlex p {
     font-size: 18px;
     color: #E5E7EB;
     padding-left: 254px;
@@ -71,10 +71,10 @@ p {
     border-radius: 8px;
     margin-left: 254px;
 }
-    /* END OF MAIN SECTION */
+/* END OF MAIN SECTION */
 
 
-    /* INFO SECTION */
+ /* INFO SECTION */
 h2 {
     text-align: center;
     font-size: 36px;
@@ -121,10 +121,10 @@ section img {
     width: 160px;
     border-radius: 15px;
 }
-    /* END OF INFO SECTION */
+ /* END OF INFO SECTION */
 
 
-    /* QUOTE SECTION */
+ /* QUOTE SECTION */
 .quote-bg {
     background-color: #E5E7EB;
     width: 100%;
@@ -140,7 +140,7 @@ section img {
     font-weight: 100;
     display: flex;
     align-items: center;
-    width: 44%;
+    width: 48%;
 }
 
 figcaption {
@@ -150,10 +150,48 @@ figcaption {
     font-style: normal;
     margin-left: 65%;
 }
-    /* END OF QUOTE SECTION */
+/* END OF QUOTE SECTION */
+
+
+/* CALL TO ACTION SECTION */
+.call-container {
+    background-color: #3882f6;
+    height: 150px;
+    width: 1023px;
+    margin: 140px auto;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: collum;
+    justify-content: space-around;
+    align-items: center;
+}
+
+strong {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.call-container button {
+    border: 2px solid #fff;
+    padding: 7px;
+    background-color: #3882f6;
+    width: 120px;
+    border-radius: 8px;
+    color: white;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
 
 
 
+
+
+ /* END OF CALL TO ACTION SECITION */
 
 
 
