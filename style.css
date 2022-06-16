@@ -1,8 +1,10 @@
 body {
+    font-family: 'Roboto', sans-serif;
     margin: auto;
     padding: auto;
 }
 
+    /* HEADER SECTION */
 .header {
     background-color: #1f2937;
     font-size: 24px;
@@ -10,9 +12,10 @@ body {
     color: #f9faf8;
     font-weight: bold;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
+    padding-left: 247px;
+    padding-right: 146px;
 }
 
 a {
@@ -26,7 +29,10 @@ a {
     gap: 1.1em;
     margin-left: 120px;
 }
+    /* END HEADER SECTION */
 
+
+    /* MAIN SECTION */
 .mainFlex {
     display: flex;
     flex-direction: column;
@@ -65,7 +71,10 @@ p {
     border-radius: 8px;
     margin-left: 254px;
 }
+    /* END OF MAIN SECTION */
 
+
+    /* INFO SECTION */
 h2 {
     text-align: center;
     font-size: 36px;
@@ -99,10 +108,9 @@ h2 {
     width: 46%;
     gap: 53px;
     padding-left: 468px;
-    margin-top: -45px;
+    margin-top: -41px;
     margin-bottom: 145px;
 }
-
 
 .text3 {
     padding-left: 35px;
@@ -113,10 +121,36 @@ section img {
     width: 160px;
     border-radius: 15px;
 }
+    /* END OF INFO SECTION */
 
 
+    /* QUOTE SECTION */
+.quote-bg {
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 453px;
+    display: flex;
+    justify-content: center;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    width: 44%;
+}
 
+figcaption {
+    color: black;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 65%;
+}
+    /* END OF QUOTE SECTION */
 
 
 
